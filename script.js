@@ -15,8 +15,7 @@ acc.totalCost += curr.price
 const itemList = document.createElement("li")
 itemList.innerHTML = `${curr.item} - $${curr.price}`
 itemListContainer.appendChild(itemList)
-
-const totalCost3 = acc
+ 
 return acc
 },{totalCost:0})
 
